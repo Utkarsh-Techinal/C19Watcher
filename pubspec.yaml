@@ -1,0 +1,96 @@
+name: flutter_ui_login
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# Read more about versioning at semver.org.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  page_transition: ^1.1.4
+  firebase_core: ^0.4.4+3
+  cloud_firestore: ^0.13.5
+  firebase_auth: ^0.15.4
+  platform_alert_dialog: ^1.0.0+2
+  modal_progress_hud: ^0.1.3
+  getwidget: ^1.1.3
+  carousel_slider: ^1.3.0
+  contacts_service: ^0.3.10
+  permission_handler: ^5.0.1+1
+  firebase_database: ^3.1.6
+  url_launcher: ^5.4.1
+  flutter_open_whatsapp: ^0.1.2
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/facebook.png
+    - assets/wiht background.png
+    - assets/without background.png
+    - assets/Group 1905.png
+    - assets/Group 1924.png
+    - assets/Group 1925.png
+    - assets/Group 1926.png
+    - assets/group-of-people.png
+    - assets/blog.jpg
+    - assets/Group 1933.png
+    - assets/Group 1932.png
+    - assets/Group 1931.png
+    - assets/lycs-architecture-U2BI3GMnSSE-unsplash.jpg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/Montserrat-Regular.ttf
+        - asset: assets/Montserrat-Bold.ttf
+          weight: 700
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages

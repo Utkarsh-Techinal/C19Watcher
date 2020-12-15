@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "583908825983",
+    "firebase_url": "https://c19watcher.firebaseio.com",
+    "project_id": "c19watcher",
+    "storage_bucket": "c19watcher.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583908825983:android:328cb6c08d6a251186984a",
+        "android_client_info": {
+          "package_name": "com.example.c19_watcher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583908825983-ec4tr1f2k7sa15e8btadt1dbhqf3g3o9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjbfWYbrjwSegGkBvK1nb0FxLdahd66v8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583908825983-ec4tr1f2k7sa15e8btadt1dbhqf3g3o9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
